@@ -1,0 +1,5 @@
+-   id: check-commit-name
+    name: check commit name
+    entry: bash check-commit-name-by-file.sh
+    language: system
+    stages: [commit-msg]
