@@ -2,4 +2,4 @@
 
 MESSAGE=$(cat "$1")
 
-/bin/bash ./check-commit-name.sh "$MESSAGE"
+bash check-commit-name.sh "$MESSAGE"
